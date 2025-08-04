@@ -1,0 +1,60 @@
+QDialog {
+    background-color:rgb(255, 255, 255);
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 14px;
+    color: gray;
+}
+
+QLabel {
+    font-weight: bold;
+    color: black;
+}
+
+QLineEdit, QComboBox, QTextEdit, QDateEdit {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: white;
+    color: black;
+}
+
+QLineEdit:focus, QComboBox:focus, QTextEdit:focus, QDateEdit:focus {
+    border: 1px solid #782e7d;
+    outline: none;
+}
+
+QPushButton {
+    background-color: #782e7d;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #5d2161;
+}
+
+#PictureFrame {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+QComboBox {
+    height: 18px;
+    color: gray;
+    font-size: 14px;
+}
+
+QComboBox QstractItemView {
+    selection-background-color: #cce7ff;
+    font-size: 14px;
+}
+
+QDateEdit {
+    height: 18px;
+    color: gray;
+    font-size: 14px;
+}
+

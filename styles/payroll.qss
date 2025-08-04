@@ -1,0 +1,140 @@
+/* General Widget Styling */
+QWidget {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 13px;
+    color: black;
+}
+
+/* Left Panel Gradient */
+#LeftPanel {
+    background-color: qlineargradient(
+        x1: 0, y1: 0, x2: 1, y2: 0,
+        stop: 0 rgb(120, 46, 125),
+        stop: 0.4 rgb(120, 46, 125),
+        stop: 0.6 rgb(180, 180, 180),
+        stop: 1 rgb(220, 220, 220)
+    );
+}
+
+/* Main Container */
+#PayrollContainer {
+    border-radius: 5px;
+    background-color: white;
+}
+
+/* Enroll Dialog */
+#EnrollPayrollWindow {
+    background-color: white;
+    border: 2px solid rgb(120, 46, 125);
+    border-radius: 8px;
+}
+
+/* Line Edits */
+QLineEdit {
+    padding: 6px;
+    border-radius: 4px;
+    background: rgb(237, 235, 235);
+    border: 1px solid #ccc;
+}
+
+/* Combo Boxes */
+QComboBox {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    color: #333;
+    min-width: 100px;
+}
+
+QComboBox:hover {
+    border: 1px solid rgb(143, 39, 150);
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 20px;
+    border-left: 1px solid #ccc;
+    background-color: #eee;
+}
+
+/* Table Styling */
+QTableWidget {
+    color: black;
+    background: white;
+    gridline-color: #ccc;
+    border: none;
+}
+
+QHeaderView::section {
+    background-color: rgb(167, 121, 166);
+    color: white;
+    padding: 4px;
+    border: none;
+}
+
+/* Add Payroll Button */
+QPushButton#addPayrollBtn {
+    background-color: #782e7d;
+    color: white;
+    padding: 6px 25px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+QPushButton#addPayrollBtn:hover {
+    background-color: #5d2161;
+}
+
+/* Enroll Submit Button */
+QPushButton#EnrollButton {
+    background-color: #782e7d;
+    color: white;
+    font-weight: bold;
+    padding: 6px 15px;
+    border-radius: 4px;
+}
+
+QPushButton#EnrollButton:hover {
+    background-color: #5d2161;
+}
+
+/* ----- Tabs Styling ----- */
+QTabWidget::pane {
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+QTabBar {
+    border-bottom: 1px solid #ccc;
+}
+
+QTabBar::tab {
+    background-color: #e7e9ec;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 8px 20px;
+    margin-right: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+QTabBar::tab:selected {
+    background-color: #ffffff;
+    color: #000;
+    border: 1px solid #bbb;
+    border-bottom: none;
+    font-weight: bold;
+    position: relative;
+    top: 1px;
+}
+
+QTabBar::tab:hover {
+    background-color: #dce0e5;
+}

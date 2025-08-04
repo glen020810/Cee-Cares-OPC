@@ -1,0 +1,143 @@
+/* === Shared Container Styles === */
+#ContainerFrame {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+/* === Tab Widget === */
+#AttendanceTabs::pane {
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+QTabBar::tab {
+    background-color: #e7e9ec;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 8px 20px;
+    margin-right: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+QTabBar::tab:hover {
+    background-color: #dce0e5;
+}
+
+QTabBar::tab:selected {
+    background-color: #ffffff;
+    color: #000;
+    border: 1px solid #bbb;
+    border-bottom: none;
+    font-weight: bold;
+    position: relative;
+    top: 1px;
+}
+
+QTabBar {
+    border-bottom: 1px solid #ccc;
+}
+
+/* === Table Styling === */
+QTableWidget {
+    color: rgb(54, 54, 54);
+    background-color: rgb(255, 255, 255);
+    font-size: 13px;
+    gridline-color: transparent;
+}
+
+QHeaderView::section {
+    background-color: rgb(167, 121, 166);
+    color: white;
+    padding: 6px;
+    font-weight: bold;
+}
+
+/* === Labels === */
+QLabel {
+    font-size: 14px;
+    color: #222;
+}
+
+/* === ListWidgets (e.g., Missing and History) === */
+QListWidget {
+    background: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    color: #222;
+}
+
+/* === Buttons === */
+QPushButton {
+    background-color: #0078d7;
+    color: white;
+    border-radius: 6px;
+    padding: 6px 12px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #005a9e;
+}
+
+/* === LineEdits === */
+QLineEdit {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #222;
+}
+
+/* === Calendar (if any) === */
+QCalendarWidget QAbstractItemView::item {
+    background-color: #ffffff;
+    selection-background-color: #0078d7;
+    selection-color: black;
+    color: black;
+}
+
+/* === Specific Time Entry Tab Styling === */
+#TimeEntryTab {
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: black;
+}
+
+#FromDateEdit, #ToDateEdit {
+    padding: 4px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fefefe;
+    color: black;
+}
+
+#LoadButton {
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-weight: bold;
+}
+
+#LoadButton:hover {
+    background-color: #0056b3;
+}
+
+#TimeGridTable {
+    gridline-color: #ddd;
+    font-size: 13px;
+    selection-background-color: #d0e9ff;
+    alternate-background-color: #f9f9f9;
+    color: black;
+}
+
+#TimeGridTable::item {
+    padding: 4px;
+}

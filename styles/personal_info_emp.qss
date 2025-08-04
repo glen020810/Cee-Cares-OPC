@@ -1,0 +1,29 @@
+QLabel {
+    color: black;
+    font-size: 14px;
+}
+
+QLabel#titleLabel {
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    qproperty-alignment: AlignCenter;
+}
+
+QLineEdit {
+    background-color: #f5f5f5;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 4px;
+    color: black;
+}
+
+QFrame#containerFrame {
+    background-color: white;
+    border-radius: 5px;
+}
+
+QLabel#pictureLabel {
+    border: 1px solid gray;
+    border-radius: 5px;
+}

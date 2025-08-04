@@ -1,0 +1,50 @@
+#LeaveRequestContainer {
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+
+QLabel {
+    font-size: 14px;
+    color: black;
+}
+
+QPushButton {
+    padding: 8px 16px;
+    color: black;
+    background-color: #e0e0e0;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+
+QPushButton:hover {
+    background-color: #d5d5d5;
+}
+
+QComboBox, QDateEdit, QTextEdit {
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* ✅ Dropdown list text inside QComboBox */
+QComboBox QAbstractItemView {
+    background-color: white;
+    color: black;
+    selection-background-color: #d0d0d0;
+    selection-color: black;
+    border: 1px solid #ccc;
+}
+
+QTableWidget {
+    background-color: white;
+    color: black;
+    gridline-color: transparent;
+}
+
+QHeaderView::section {
+    background-color:rgb(167, 121, 166);
+    color: white;
+    padding: 5px;
+}

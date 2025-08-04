@@ -1,0 +1,40 @@
+/* Container frame with background only, shadow via QGraphicsDropShadowEffect */
+#ContainerFrame {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+/* Tab Widget */
+QTabWidget::pane {
+    border: none;
+    background: transparent;
+    padding-top: 5px;
+}
+
+QTabBar::tab {
+    background: #e0e0e0;
+    color: #333;
+    border: none;
+    padding: 8px 20px;
+    margin-right: 5px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-size: 14px;
+    transition: background 0.3s ease;
+}
+
+QTabBar::tab:hover {
+    background: #d0d0d0;
+}
+
+QTabBar::tab:selected {
+    background: #ffffff;
+    font-weight: bold;
+    color: #000;
+}
+
+/* General label styling */
+QLabel {
+    font-size: 14px;
+    color: #333;
+}

@@ -1,0 +1,85 @@
+#AttendanceContainer {
+    background-color: white; 
+    border-radius: 5px;
+    padding: 20px;
+}
+
+QLabel {
+    color: #2c2c2c;  
+    font-size: 14px;
+}
+
+QTableWidget {
+    color:rgb(54, 54, 54);           
+    background-color:rgb(255, 255, 255);
+    font-size: 13px;
+    gridline-color: transparent;
+}
+
+QHeaderView::section {
+    background-color: rgb(167, 121, 166);
+    color: #ffffffff;          
+    padding: 5px;
+    font-weight: bold;
+}
+
+/* Main container frame (for drop shadow effect externally) */
+#ContainerFrame {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+/* Tab Pane (area under the tab buttons) */
+QTabWidget::pane {
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* Tab Bar: each tab */
+QTabBar::tab {
+    background-color: #e7e9ec;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 8px 20px;
+    margin-right: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+QTabBar::tab:hover {
+    background-color: #dce0e5;
+}
+
+QTabBar::tab:selected {
+    background-color: #ffffff;
+    color: #000;
+    border: 1px solid #bbb;
+    border-bottom: none;
+    font-weight: bold;
+    position: relative;
+    top: 1px; /* raise selected tab slightly */
+}
+
+/* Optional: Bottom border to separate tabs from content */
+QTabBar {
+    border-bottom: 1px solid #ccc;
+}
+
+/* General QLabel styling inside the tab content */
+QLabel {
+    font-size: 14px;
+    color: #222;
+}
+QLabel {
+    
+    color: #222;
+}
+QListWidget, QListWidget::item {
+    color: #000000;  /* Black text */
+    background-color: #ffffff;
+    font-size: 13px;
+}

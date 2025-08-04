@@ -1,0 +1,58 @@
+QWidget#EnrollPayrollWindow {
+    background-color: white;
+    padding: 15px;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 13px;
+    color: black;
+}
+
+QLabel {
+    margin-top: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+QLineEdit {
+    color: black;
+   margin-top: 30px;
+    padding: 5px;
+    border-radius: 4px;
+    background: rgb(237, 235, 235);
+    min-height: 20px;
+    min-width: 10px;
+    border: 1px solid #ccc;
+
+}
+
+QPushButton {
+    margin-top: 10px;
+    background-color: #782e7d;
+    color: white;
+    border: none;
+    padding: 6px 20px;
+    border-radius: 4px;
+    margin-top: 34px;
+    margin-bottom: 5px;
+}
+
+
+QPushButton:hover {
+    background-color: #5d2161;
+}
+
+QTableWidget {
+    color: black;
+    margin-top: 1px;
+    border: 0px solid #eee;
+    font-size: 14px;
+    gridline-color:rgb(255, 255, 255);
+    background: white;
+    
+}
+
+QHeaderView::section {
+    background-color: rgb(167, 121, 166);
+    color: white;
+    padding: 4px;
+    border: none;
+}
